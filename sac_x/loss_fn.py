@@ -2,6 +2,7 @@ import torch
 import torch.nn.functional as F
 from torch.multiprocessing import current_process
 
+#mseloss on critic and loss mean on actor need changed
 
 class Retrace:
     def __init__(self, num_actions, num_intentions):
